@@ -20,11 +20,28 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ai from "./tech/adobe_illustrator-icon.svg";
+import babel from "./tech/babel-colored-dark.svg";
+import bootstrap from "./tech/bootstrap-colored.svg";
+import jquery from "./tech/jquery-colored.svg";
+import mysql from "./tech/mysql-colored.svg";
+import nextjs from "./tech/nextjs-colored-dark.svg";
+import photoshop from "./tech/photoshop-line.svg";
+import postgresql from "./tech/postgresql-colored.svg";
+import python from "./tech/python-colored.svg";
+import ruby from "./tech/ruby-colored.svg";
+import sass from "./tech/sass-colored.svg";
+import vite from "./tech/vite-colored.svg";
+import webpack from "./tech/webpack-colored.svg";
+import wordpress from "./tech/WordPress.com_.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import argos from "./company/argos.png";
+import copanac from "./company/copanac.png";
+import dev from "./company/dev.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +69,27 @@ export {
   tailwind,
   typescript,
   threejs,
+  ai,
+  babel,
+  bootstrap,
+  jquery,
+  mysql,
+  nextjs,
+  photoshop,
+  postgresql,
+  python,
+  ruby,
+  sass,
+  vite,
+  webpack,
+  wordpress,
   meta,
   shopify,
   starbucks,
   tesla,
+  argos,
+  copanac,
+  dev,
   carrent,
   jobit,
   tripguide,
