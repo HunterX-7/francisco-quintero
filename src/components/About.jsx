@@ -30,7 +30,7 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-[18px] max-w-3xl leading-[30px]'>
       Skilled Full Stack Web Developer with a Mechanical Engineering background. Expertise in JavaScript, React, and Node.js. Adaptable and eager to learn new languages and frameworks. Strong remote collaboration, problem-solving, and communication skills. Passionate about innovative web development and delivering exceptional results. Ready to contribute to your team's success!
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

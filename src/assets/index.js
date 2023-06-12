@@ -46,6 +46,12 @@ import dev from "./company/dev.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import fashion from "./Fashion-Week.jpeg"
+import tribalcargo from "./TribalCargo.png"
+import global from "./Global-Metrics.jpeg"
+import bookstore from "./New-Awesome-Books.png"
+import cozy from "./CozyHomes.png"
+import budget from "./BudgetApp.png"
 
 export {
   logo,
@@ -93,4 +99,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  fashion,
+  tribalcargo,
+  global,
+  bookstore,
+  cozy,
+  budget,
 };
