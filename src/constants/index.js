@@ -14,15 +14,18 @@ import {
     argos,
     copanac,
     dev,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     bootstrap,
     ruby,
     postgresql,
     wordpress,
     python,
+    fashion,
+    tribalcargo,
+    global,
+    bookstore,
+    cozy,
+    budget,
   } from "../assets";
   
   export const navLinks = [
@@ -159,93 +162,186 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "His expertise in a variety of programming languages and technologies is truly impressive, and he has demonstrated a talent for adapting quickly to new challenges. I have no doubt that Francisco would be a valuable asset to any team.",
+      name: "Luis Zubía",
+      designation: "Software Engineer",
+      company: "",
+      image: "https://avatars.githubusercontent.com/u/67355479?v=4",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Francisco has the technical expertise, positive attitude, and collaborative mindset that makes for an excellent developer. They are dedicated to producing quality work and always willing to go the extra mile to ensure teams success. Any team would be fortunate to have Francisco as part of their organization.",
+      name: "Rashed Arman",
+      designation: "Full Stack Developer",
+      company: "",
+      image: "https://avatars.githubusercontent.com/u/78993606?v=4",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Francisco is a full-stack web developer with a solid grasp of both front-end and back-end development technologies. He can create, develop, and put into use web applications that satisfy the particular needs of each project, and he always makes sure that his work is of the greatest caliber.",
+      name: "Juan Pablo Guerrero",
+      designation: "Full Stack Web Developer",
+      company: "",
+      image: "https://avatars.githubusercontent.com/u/113477568?v=4",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fashion Week",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This project was created to showcase my skills in front-end web development and demonstrate my ability to create visually appealing and responsive web pages. Users can showcase their work and services on this fashion gala website.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: fashion,
+      live_demo: "https://hunterx-7.github.io/Fashion-Week/",
+      source_code_link: "https://github.com/HunterX-7/Fashion-Week",
     },
     {
-      name: "Job IT",
+      name: "TribalCargo",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Shipping company experienced in air and maritime cargo transportation, providing comprehensive support to users in all related aspects. Users register and get a PO Box direction to do their online shopping, they can track their shipment and also get notified via email every time they receive a new package.",
       tags: [
         {
-          name: "react",
+          name: "WordPress",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: tribalcargo,
+      live_demo: "https://www.tribalcargo.com/",
+      source_code_link: "",
     },
     {
-      name: "Trip Guide",
+      name: "Cozy Homes",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web platform that offers a wide selection of comfortable and welcoming homes that can be rented for a short period of time. Dedicated to providing a seamless and enjoyable user experience, ensuring that guests feel at home no matter where.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Ruby",
           color: "pink-text-gradient",
         },
+        {
+          name: "RestAPI",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cozy,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/cozy-homes-front-end",
+    },
+    {
+      name: "New Awesome Bookstore",
+      description:
+        "New Awesome Bookstore enables users to browse a comprehensive list of books, add new titles, and remove selected books with ease, along with Bootstrap, I create an intuitive and visually appealing user interface that enhances the browsing experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: bookstore,
+      live_demo: "https://hunterx-7.github.io/New-Awesome-Bookstore/",
+      source_code_link: "https://github.com/HunterX-7/New-Awesome-Bookstore",
+    },
+    {
+      name: "Budget App",
+      description:
+        "The Budget App is a mobile web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+      tags: [
+        {
+          name: "Ruby",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: budget,
+      live_demo: "https://hunterx-7-budget-app.onrender.com/groups",
+      source_code_link: "https://github.com/HunterX-7/Budget-App",
+    },
+    {
+      name: "Global Metrics",
+      description:
+        "Global Metrics is a single-page application built with React. The app is designed to display basic information about different countries and allows users to filter and select a specific country to view more details.",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Redux",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Bootstrap",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "RestAPI",
+            color: "yellow-text-gradient",
+          },
+        ],
+      image: global,
+      live_demo: "https://hunterx-7.github.io/Global-Metrics-Webapp/",
+      source_code_link: "https://github.com/HunterX-7/Global-Metrics-Webapp",
     },
   ];
   
