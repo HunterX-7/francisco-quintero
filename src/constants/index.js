@@ -14,12 +14,10 @@ import {
     argos,
     copanac,
     dev,
-    threejs,
     bootstrap,
     ruby,
     postgresql,
     wordpress,
-    python,
     fashion,
     tribalcargo,
     global,
@@ -94,14 +92,6 @@ import {
     {
       name: "Bootstrap",
       icon: bootstrap,
-    },
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "Git",
