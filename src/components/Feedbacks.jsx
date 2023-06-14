@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import Tilt from 'react-parallax-tilt';
 import styles from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -8,25 +9,27 @@ import { testimonials } from "../constants";
 const FeedbackCard = ({index, testimonial, name, designation, image}) => {
   
   return (
-    <motion.div
-      variants={fadeIn("up", "spring", index*0.5, 0.75)}
-      className='mt-10 bg-tertiary p-10 rounded-3xl xs:w-[320px] w-full'
-    >
-      <div className='mt-4 mb-4'>
-        <p className='text-white tracking-wider text-[14px]'>"{testimonial}"</p>
-        <div className='mt-7 flex justify-between items-center gap-1'>
-          <div className='flex flex-col'>
-            <p className='text-white font-medium text-[16px]'>
-              {name}
-            </p>
-            <p className='mt-1 text-secondary text-[12px]'>
-              {designation}
-            </p>
+    <Tilt options={{ max: 45, scale: 1, speed: 350 }}>
+      <motion.div
+        variants={fadeIn("up", "spring", index*0.5, 0.75)}
+        className='mt-10 bg-tertiary p-10 rounded-3xl xs:w-[320px] w-full'
+      >
+        <div className='mt-4 mb-4'>
+          <p className='text-white tracking-wider text-[14px]'>"{testimonial}"</p>
+          <div className='mt-7 flex justify-between items-center gap-1'>
+            <div className='flex flex-col'>
+              <p className='text-white font-medium text-[16px]'>
+                {name}
+              </p>
+              <p className='mt-1 text-secondary text-[12px]'>
+                {designation}
+              </p>
+            </div>
+            <img src={image} alt={`feedback_by-${name}`} className='w-10 h-10 rounded-full object-cover' />
           </div>
-          <img src={image} alt={`feedback_by-${name}`} className='w-10 h-10 rounded-full object-cover' />
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </Tilt>
   )
 };
 

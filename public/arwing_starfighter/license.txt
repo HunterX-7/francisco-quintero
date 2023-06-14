@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arwing Starfighter
+* source:	https://sketchfab.com/3d-models/arwing-starfighter-bd4424c975064f9ab7b2d10107b50ea8
+* author:	Macwithav (https://sketchfab.com/Macwithav)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arwing Starfighter" (https://sketchfab.com/3d-models/arwing-starfighter-bd4424c975064f9ab7b2d10107b50ea8) by Macwithav (https://sketchfab.com/Macwithav) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
