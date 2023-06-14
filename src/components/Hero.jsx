@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { SpaceshipCanvas } from './canvas';
@@ -9,8 +8,8 @@ const Hero = () => {
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col items-center justify-center'>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#07BEB8]'>Francisco</span></h1>
-          <p className={`${styles.heroSubText} text-center w-[75%]`}>A highly motivated Full Stack Web Developer with a thirst for knowledge. Committed to delivering exceptional results in web development. Let's collaborate and bring your ideas to life!</p>
+          <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className='text-[#07BEB8]'>Francisco</span></h1>
+          <p className={`${styles.heroSubText} text-center w-[75%]`}>A highly motivated Full Stack Web Developer with a thirst for knowledge. Committed to delivering exceptional results in web development. Let&apos;s collaborate and bring your ideas to life!</p>
         </div>
       </div>
       <SpaceshipCanvas />

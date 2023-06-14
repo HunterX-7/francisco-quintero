@@ -1,5 +1,5 @@
-import React from 'react';
 import styles from '../styles';
+import PropTypes from 'prop-types';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 
@@ -52,7 +52,7 @@ const Works = () => {
       <div>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={`${styles.sectionHeadText} text-[#07BEB8] tracking-wider`}>Projects</h2>
-        <p className='mt-4 text-[18px] max-w-3xl leading-[30px]'>
+        <p className='text-white mt-4 text-[18px] max-w-3xl leading-[30px]'>
           These projects serve as tangible demonstrations of my skills and expertise, showcasing real-world examples of my work. These projects may include links to code repositories and live demos, but not all of them, as some projects might not have associated repositories. Nonetheless, they reflect my capability to tackle complex challenges and demonstrate my diverse range of skills.
         </p>
       </div>
@@ -64,5 +64,19 @@ const Works = () => {
     </>
   )
 }
+
+ProjectCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      color: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  image: PropTypes.string.isRequired,
+  live_demo: PropTypes.string,
+  source_code_link: PropTypes.string,
+};
 
 export default SectionWrapper(Works, "");

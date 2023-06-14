@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
@@ -8,8 +8,11 @@ const Satellite = () => {
 
   return (
     <>
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <ambientLight intensity={0.25} />
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <spotLight position={[0, 20, 20]} angle={Math.PI / 4} intensity={1} />
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <primitive object={satellite.scene} scale={0.35} position={[0, 1, 0]} rotation={[0, -6.5, 5]} />
     </>
   );

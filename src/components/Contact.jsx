@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import styles from "../styles";
@@ -60,7 +60,7 @@ const Contact = () => {
       <motion.div variants={slideIn('right', "tween", 0.2, 1)} className='flex-[0.75] bg-tertiary p-8 rounded-2xl'>
       <p className={styles.sectionSubText}>Get in touch</p>
       <h2 className={`${styles.sectionHeadText} text-[#07BEB8] tracking-wider`}>Contact</h2>
-      <p className='mt-4 text-[18px] max-w-3xl leading-[30px]'>If you are interested in having a conversation, I'm always eager to learn about new projects. Feel free to reach out to me.</p>
+      <p className='text-white mt-4 text-[18px] max-w-3xl leading-[30px]'>If you are interested in having a conversation, I&apos;m always eager to learn about new projects. Feel free to reach out to me.</p>
       <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
         <label className="flex flex-col">
           <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="Full Name" 
@@ -76,7 +76,7 @@ const Contact = () => {
         </label>
         <button
           type='submit'
-          className='bg-quaternary hover:bg-quinary active:bg-quinary focus:outline-none 
+          className='text-white bg-quaternary hover:bg-quinary active:bg-quinary focus:outline-none 
             focus:ring focus:ring-blue-300 w-fit py-3 px-8 rounded-xl font-semibold'
         >
             {loading ? "Sending..." : "Send"}

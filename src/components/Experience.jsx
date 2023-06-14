@@ -1,7 +1,7 @@
-import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { motion } from 'framer-motion';
-import 'react-vertical-timeline-component/style.min.css'
+import PropTypes from 'prop-types';
+import 'react-vertical-timeline-component/style.min.css';
 import styles from '../styles';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
@@ -58,5 +58,16 @@ const Experience = () => {
     </>
   )
 }
+
+ExpirienceCard.propTypes = {
+  experience: PropTypes.shape({
+    date: PropTypes.string.isRequired,
+    iconBg: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    company_name: PropTypes.string.isRequired,
+    points: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
+};
 
 export default SectionWrapper(Experience, "work");
