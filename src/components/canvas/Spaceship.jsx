@@ -1,5 +1,5 @@
-import React from 'react';
 import { Suspense, useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
@@ -10,9 +10,13 @@ const Spaceship = ({ isMobile }) => {
 
   return (
     <mesh>
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <hemisphereLight intensity={0.1} groundColor="black" />
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <pointLight intensity={0.25} />
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <spotLight position={[10, 20, 10]} angle={0.25} intensity={1} castShadow shadow-mapSize={1024} />
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <primitive object={computer.scene} scale={isMobile ? 0.35 : 0.65} position={isMobile ? [0, -2.75, 0.25] : [-1.5, -2.25, 0]} rotation={[0.25, 0.5, -0.25]} />
     </mesh>
   )
@@ -47,5 +51,9 @@ const SpaceshipCanvas = () => {
     </Canvas>
   )
 }
+
+Spaceship.propTypes = {
+  isMobile: PropTypes.bool.isRequired,
+};
 
 export default SpaceshipCanvas;

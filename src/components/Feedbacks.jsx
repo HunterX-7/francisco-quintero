@@ -1,5 +1,5 @@
-import React from 'react';
 import { motion } from "framer-motion";
+import PropTypes from 'prop-types';
 import Tilt from 'react-parallax-tilt';
 import styles from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -15,7 +15,7 @@ const FeedbackCard = ({index, testimonial, name, designation, image}) => {
         className='mt-10 bg-tertiary p-10 rounded-3xl xs:w-[320px] w-full'
       >
         <div className='mt-4 mb-4'>
-          <p className='text-white tracking-wider text-[14px]'>"{testimonial}"</p>
+          <p className='text-white tracking-wider text-[14px]'>&quot;{testimonial}&quot;</p>
           <div className='mt-7 flex justify-between items-center gap-1'>
             <div className='flex flex-col'>
               <p className='text-white font-medium text-[16px]'>
@@ -49,5 +49,13 @@ const Feedbacks = () => {
     </>
   )
 }
+
+FeedbackCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  testimonial: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  designation: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
 
 export default SectionWrapper(Feedbacks, "");
