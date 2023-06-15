@@ -21,13 +21,11 @@ import {
     postgresql,
     wordpress,
     fashion,
-    //tribalcargo,
+    tribalcargo,
     global,
     bookstore,
-    //cozy,
+    cozy,
     budget,
-    magic,
-    leader,
   } from "../assets";
   
   export const navLinks = [
@@ -221,6 +219,58 @@ import {
       source_code_link: "https://github.com/HunterX-7/Fashion-Week",
     },
     {
+      name: "TribalCargo",
+      description:
+        "Shipping company experienced in air and maritime cargo transportation, providing comprehensive support to users in all related aspects. Users register and get a PO Box direction to do their online shopping, they can track their shipment and also get notified via email every time they receive a new package.",
+      tags: [
+        {
+          name: "WordPress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: tribalcargo,
+      live_demo: "https://www.tribalcargo.com/",
+      source_code_link: "",
+    },
+    {
+      name: "Cozy Homes",
+      description:
+        "Web platform that offers a wide selection of comfortable and welcoming homes that can be rented for a short period of time. Dedicated to providing a seamless and enjoyable user experience, ensuring that guests feel at home no matter where.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Ruby",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: cozy,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/cozy-homes-front-end",
+    },
+    {
       name: "New Awesome Bookstore",
       description:
         "New Awesome Bookstore enables users to browse a comprehensive list of books, add new titles, and remove selected books with ease, along with Bootstrap, I create an intuitive and visually appealing user interface that enhances the browsing experience.",
@@ -271,58 +321,6 @@ import {
       image: budget,
       live_demo: "https://hunterx-7-budget-app.onrender.com/",
       source_code_link: "https://github.com/HunterX-7/Budget-App",
-    },
-    {
-      name: "Math Magic Calculator",
-      description:
-        "Math Magic is a single-page app using react that allows users to make simple calculations and read famous random math-related quotes. The main focus of this project is to display my skill with react and other frameworks.",
-        tags: [
-          {
-            name: "React",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "JavaScript",
-            color: "green-text-gradient",
-          },
-          {
-            name: "Bootstrap",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "Webpack",
-            color: "yellow-text-gradient",
-          },
-        ],
-      image: magic,
-      live_demo: "https://hunterx-7.github.io/Math-Magic-Calculator/",
-      source_code_link: "https://github.com/HunterX-7/Math-Magic-Calculator",
-    },
-    {
-      name: "Leaderboard",
-      description:
-        "This is a Leaderboard list app using javascript webpack and ES6 features, notably modules. The main focus of this project is to practice the use of callbacks and promises alongside ES6 sintax and webpack bundles.",
-        tags: [
-          {
-            name: "React",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "Redux",
-            color: "green-text-gradient",
-          },
-          {
-            name: "Bootstrap",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "RestAPI",
-            color: "yellow-text-gradient",
-          },
-        ],
-      image: leader,
-      live_demo: "https://hunterx-7.github.io/Leaderboard/",
-      source_code_link: "https://github.com/HunterX-7/Leaderboard",
     },
     {
       name: "Global Metrics",

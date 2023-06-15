@@ -53,7 +53,7 @@ const Works = () => {
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={`${styles.sectionHeadText} text-[#07BEB8] tracking-wider`}>Projects</h2>
         <p className='text-white mt-4 text-[18px] max-w-3xl leading-[30px]'>
-          These projects serve as tangible demonstrations of my skills and expertise, showcasing real-world examples of my work. Each project is accompanied by links to live demos and associated source code repositories, offering insights into my development process. These repositories highlight my commitment to code quality, version control, and collaboration within a development team.
+          These projects serve as tangible demonstrations of my skills and expertise, showcasing real-world examples of my work. These projects may include links to code repositories and live demos, but not all of them, as some projects might not have associated repositories. Nonetheless, they reflect my capability to tackle complex challenges and demonstrate my diverse range of skills.
         </p>
       </div>
       <div className='mt-20 flex flex-wrap gap-8 justify-center items-center'>

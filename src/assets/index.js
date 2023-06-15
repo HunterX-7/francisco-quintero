@@ -34,13 +34,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import fashion from "./Fashion-Week.jpeg";
-//import tribalcargo from "./TribalCargo.png";
+import tribalcargo from "./TribalCargo.png";
 import global from "./Global-Metrics.jpeg";
 import bookstore from "./New-Awesome-Books.png";
-//import cozy from "./CozyHomes.png";
+import cozy from "./CozyHomes.png";
 import budget from "./BudgetApp.png";
-import leader from "./Leaderboard.png";
-import magic from "./MathMagic.png";
 
 export {
   logo,
@@ -77,10 +75,8 @@ export {
   fashion,
   global,
   bookstore,
-  magic,
-  leader,
-  //tribalcargo,
-  //cozy,
+  tribalcargo,
+  cozy,
   budget,
   down,
 };
