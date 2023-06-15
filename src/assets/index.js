@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import down from "./down-arrow.svg";
+import linkedin from "./linkedin.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -46,6 +47,7 @@ export {
   frontend,
   consulting,
   github,
+  linkedin,
   menu,
   close,
   css,
