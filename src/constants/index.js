@@ -1,4 +1,6 @@
 import {
+    github,
+    linkedin,
     backend,
     consulting,
     content,
@@ -38,6 +40,19 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+  ];
+
+  const socials = [
+    {
+      id: "linkedin",
+      title: "https://www.linkedin.com/in/francisco-asis-quintero-cede%C3%B1o/",
+      logo: linkedin,
+    },
+    {
+      id: "github",
+      title: "https://github.com/HunterX-7",
+      logo: github,
     },
   ];
   
@@ -335,5 +350,5 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { socials, services, technologies, experiences, testimonials, projects };
   
