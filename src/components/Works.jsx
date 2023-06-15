@@ -10,7 +10,7 @@ const ProjectCard = ({ name, description, tags, image, live_demo, source_code_li
         <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
       </div>
       <div className='flex-col mt-5'>
-        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        <h3 className='text-white font-semibold text-[24px]'>{name}</h3>
         <div className='flex flex-row'>
           {live_demo && (
           <div className='mt-2 flex flex-wrap gap-2 mr-2'>
