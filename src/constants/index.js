@@ -319,7 +319,7 @@ import {
         },
       ],
       image: budget,
-      live_demo: "https://hunterx-7-budget-app.onrender.com/groups",
+      live_demo: "https://hunterx-7-budget-app.onrender.com/",
       source_code_link: "https://github.com/HunterX-7/Budget-App",
     },
     {

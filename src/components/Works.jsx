@@ -79,4 +79,4 @@ ProjectCard.propTypes = {
   source_code_link: PropTypes.string,
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
