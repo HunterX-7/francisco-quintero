@@ -48,9 +48,10 @@ My **Personal Portfolio** Website, The following portfolio was created to showca
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
-  <li>Vite</li>
+  <li>Tailwind CSS</li>
   <li>React</li>
   <li>Three</li>
+  <li>Vite</li>
 </ul>
 
 <!-- LIVE DEMO -->
