@@ -71,7 +71,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 - Node js
-- Visual studio Code
+- Visual Studio Code
 - Git Bash
 - NPM installed locally
 
