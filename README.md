@@ -45,7 +45,6 @@ My **Personal Portfolio** Website, The following portfolio was created to showca
 ### Tech Stack <a name="tech-stack"></a>
 
 <ul>
-  <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
   <li>Tailwind CSS</li>
