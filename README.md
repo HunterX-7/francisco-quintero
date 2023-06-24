@@ -15,8 +15,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -42,16 +40,20 @@ My **Personal Portfolio** Website, The following portfolio was created to showca
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
 
-<ul>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>Tailwind CSS</li>
-  <li>React</li>
-  <li>Three</li>
-  <li>Vite</li>
-</ul>
+
+<details>
+  <summary>Tech Stack</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Tailwind CSS</li>
+    <li>React</li>
+    <li>Three</li>
+    <li>Vite</li>
+  </ul>
+</details>
 
 <!-- LIVE DEMO -->
 
