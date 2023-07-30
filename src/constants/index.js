@@ -156,7 +156,7 @@ import {
       iconBg: "#ffffff",
       date: "Aug 2021 - Present",
       points: [
-        "Developed custom WordPress websites tailored to meet the specific needs and requirements of the client, ensuring a visually appealing and engaging online presence.",
+        "Developed custom websites tailored to meet the specific needs and requirements of the client, ensuring a visually appealing and engaging online presence.",
         "Designed and optimized the websites to provide a user-friendly experience, implementing intuitive navigation and highlighting key aspects of the business to enhance user engagement.",
         "Achieved a significant increase of over 70% in website traffic through the effective implementation of SEO strategies and techniques.",
         "Employed JavaScript, CSS, and HTML to personalize and customize specific sections of the websites, implementing a unique and innovative approach to enhance the overall user experience and meet the client's specific requirements.",
