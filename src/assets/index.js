@@ -30,9 +30,6 @@ import argos from "./company/argos.png";
 import copanac from "./company/copanac.png";
 import dev from "./company/dev.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import fashion from "./Fashion-Week.jpeg";
 import tribalcargo from "./TribalCargo.png";
 import global from "./Global-Metrics.jpeg";
@@ -69,9 +66,6 @@ export {
   argos,
   copanac,
   dev,
-  carrent,
-  jobit,
-  tripguide,
   fashion,
   global,
   bookstore,
