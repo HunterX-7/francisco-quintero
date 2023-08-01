@@ -22,10 +22,7 @@ import postgresql from "./tech/postgresql-colored.png";
 import ruby from "./tech/ruby-colored.png";
 import wordpress from "./tech/WordPress.com_.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import sitel from "./company/sitel.png"
 import argos from "./company/argos.png";
 import copanac from "./company/copanac.png";
 import dev from "./company/dev.png";
@@ -59,10 +56,7 @@ export {
   postgresql,
   ruby,
   wordpress,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  sitel,
   argos,
   copanac,
   dev,
