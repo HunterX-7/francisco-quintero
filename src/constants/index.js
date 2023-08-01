@@ -13,6 +13,7 @@ import {
     redux,
     tailwind,
     git,
+    sitel,
     argos,
     copanac,
     dev,
@@ -128,14 +129,27 @@ import {
   
   const experiences = [
     {
+      title: "Technical Support",
+      company_name: "Sitel Group",
+      icon: sitel,
+      iconBg: "#ffffff",
+      date: "Jun 2014 - Jul 2015",
+      points: [
+        "Achieved an outstanding Customer Satisfaction Score of 91%, demonstrating a track record of consistently delivering exceptional customer experiences and resolving issues to their complete satisfaction.",
+        "Maintained an impressive Average Handle Time of 10 minutes, showcasing efficient communication and effective problem-solving skills, resulting in quick and timely resolution of customer inquiries.",
+        "Successfully contributed to a remarkable Customer Retention Rate of 94%, indicating a strong ability to build and maintain positive relationships with customers, leading to increased loyalty and continued business engagement.",
+      ],
+    },
+    {
       title: "Mechanical Engineer",
       company_name: "COPANAC S.A.",
       icon: copanac,
       iconBg: "#ffffff",
       date: "Jan 2017 - Dec 2017",
       points: [
-        "As an accomplished mechanical engineer, I designed air conditioning systems that met specific client requirements, while taking into account both project needs and budget constraints.",
-        "Additionally, I was able to secure the purchase of several mid-level contracts for air conditioning systems through my expertise in project design, engineering, and budget estimating, while ensuring full compliance with all relevant technical files.",
+        "Leveraging my expertise in project design and engineering, I secured and managed several mid-level contracts for air conditioning systems, leading to an 18% growth in revenue for the department and exceeding the annual sales targets.",
+        "Demonstrating exceptional proficiency in budget estimating and cost optimization, I consistently achieved a 10% reduction in project expenses while maintaining the highest quality standards, contributing to significant cost savings for the organization.",
+        "By collaborating closely with cross-functional teams, I ensured seamless coordination and alignment of technical files, resulting in a 15% improvement in project delivery timelines and overall efficiency.",
       ],
     },
     {
@@ -145,8 +159,9 @@ import {
       iconBg: "#ffffff",
       date: "Feb 2019 - Nov 2019",
       points: [
-        "Successfully supervised the construction of the company's first mortar plant, overseeing the entire process from mechanical drawings to project design and engineering.",
-        "Through project management and technical expertise, I was able to help improve the plant's cost production by 8% while managing personnel and ensuring compliance with all relevant technical files and regulations.",
+        "Led a team of 30+ technicians and engineers in the successful construction and commissioning of the company's first mortar plant, ensuring seamless collaboration and coordination among different departments.",
+        "Implemented cost-saving measures that resulted in an 8% reduction in production expenses for the mortar plant, contributing to significant overall cost savings for the company.",
+        "Achieved and maintained a 100% compliance rate with safety regulations and industry standards throughout the entire construction and operation process.",
       ],
     },
     {
@@ -156,10 +171,15 @@ import {
       iconBg: "#ffffff",
       date: "Aug 2021 - Present",
       points: [
-        "Developed custom websites tailored to meet the specific needs and requirements of the client, ensuring a visually appealing and engaging online presence.",
-        "Designed and optimized the websites to provide a user-friendly experience, implementing intuitive navigation and highlighting key aspects of the business to enhance user engagement.",
-        "Achieved a significant increase of over 70% in website traffic through the effective implementation of SEO strategies and techniques.",
-        "Employed JavaScript, CSS, and HTML to personalize and customize specific sections of the websites, implementing a unique and innovative approach to enhance the overall user experience and meet the client's specific requirements.",
+        "Optimized frontend performance, resulting in a 12% reduction in page loading times and enhanced user engagement.",
+        "Successfully completed 20+ full-stack development projects, utilizing a diverse tech stack including JavaScript, React, Redux, Tailwind, Bootstrap, Ruby on Rails, and MongoDB, to create dynamic, custom, and user-friendly websites.",
+        "Implemented efficient CI/CD pipelines to streamline development workflows, ensuring automated testing, continuous integration, and continuous deployment.",
+        "Achieved an average of 24-hour response time for website maintenance and support requests, ensuring prompt assistance to clients.",
+        "Seamlessly integrated CMS platforms like WordPress, tailoring them to clients' needs and enabling easy content management.",
+        "Applied Agile methodologies in project management, leading to a 15% increase in project efficiency and client satisfaction.",
+        "Leveraged SEO techniques and tools, resulting in a 70% increase in organic website traffic and improved search engine rankings.",
+        "Ensured robust code quality with 80% unit test coverage, reducing the occurrence of critical bugs in production.",
+        "Developed robust backend solutions using Ruby on Rails and Express, enabling seamless data management, authentication, and API integrations, contributing to the development of highly functional and efficient web applications.",
       ],
     },
   ];
@@ -319,7 +339,7 @@ import {
         },
       ],
       image: budget,
-      live_demo: "https://hunterx-7-budget-app.onrender.com/",
+      live_demo: "",
       source_code_link: "https://github.com/HunterX-7/Budget-App",
     },
     {
