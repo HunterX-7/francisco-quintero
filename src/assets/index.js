@@ -33,6 +33,9 @@ import global from "./Global-Metrics.jpeg";
 import bookstore from "./New-Awesome-Books.png";
 import cozy from "./CozyHomes.png";
 import budget from "./BudgetApp.png";
+import dawnbank from "./DawnBank.png";
+import mountains from "./LAMountains.png";
+import thinkart from "./ThinkArt.png";
 
 export {
   logo,
@@ -67,4 +70,7 @@ export {
   cozy,
   budget,
   down,
+  dawnbank,
+  mountains,
+  thinkart,
 };

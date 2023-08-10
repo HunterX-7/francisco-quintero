@@ -27,6 +27,9 @@ import {
     bookstore,
     cozy,
     budget,
+    dawnbank,
+    thinkart,
+    mountains,
   } from "../assets";
   
   export const navLinks = [
@@ -213,6 +216,54 @@ import {
   
   const projects = [
     {
+      name: "DawnBank",
+      description:
+        "DawnBank is a comprehensive and dynamic single-page application built using React, Tailwind CSS, and Vite. The application is designed with a focus on usability, ease of navigation, and smooth interactions for users, ensuring a positive experience while using the financial website.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dawnbank,
+      live_demo: "https://hunterx-7.github.io/DawnBank/",
+      source_code_link: "https://github.com/HunterX-7/DawnBank",
+    },
+    {
+      name: "ThinkArt",
+      description:
+        "ThinkArt is a DALL-E clone using a fusion of React, Tailwind CSS, and Vite that brings creativity to life. Integrated with Node, Express, MongoDB, OpenAI, and Cloudinary, it empowers users to explore art through AI technology. Unleash creativity, and share masterpieces on this dynamic platform.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: thinkart,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/ThinkArt",
+    },
+    {
       name: "Fashion Week",
       description:
         "This project was created to showcase my skills in front-end web development and demonstrate my ability to create visually appealing and responsive web pages. Users can showcase their work and services on this fashion gala website.",
@@ -237,6 +288,32 @@ import {
       image: fashion,
       live_demo: "https://hunterx-7.github.io/Fashion-Week/",
       source_code_link: "https://github.com/HunterX-7/Fashion-Week",
+    },
+    {
+      name: "Cozy Homes",
+      description:
+        "Web platform that offers a wide selection of comfortable and welcoming homes that can be rented for a short period of time. Dedicated to providing a seamless and enjoyable user experience, ensuring that guests feel at home no matter where.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Ruby",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: cozy,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/cozy-homes-front-end",
     },
     {
       name: "TribalCargo",
@@ -265,30 +342,26 @@ import {
       source_code_link: "",
     },
     {
-      name: "Cozy Homes",
+      name: "L.A. Mountains",
       description:
-        "Web platform that offers a wide selection of comfortable and welcoming homes that can be rented for a short period of time. Dedicated to providing a seamless and enjoyable user experience, ensuring that guests feel at home no matter where.",
+        "Los Angeles Mountains is a single-page application built using React, Tailwind CSS, and Vite. Focus on usability, ease of navigation, and smooth interactions for users, ensuring a positive experience while using the hiking website.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Redux",
+          name: "Tailwind CSS",
           color: "green-text-gradient",
         },
         {
-          name: "Ruby",
+          name: "Vite",
           color: "pink-text-gradient",
         },
-        {
-          name: "RestAPI",
-          color: "yellow-text-gradient",
-        },
       ],
-      image: cozy,
-      live_demo: "",
-      source_code_link: "https://github.com/HunterX-7/cozy-homes-front-end",
+      image: mountains,
+      live_demo: "https://hunterx-7.github.io/angeles-mountains/",
+      source_code_link: "https://github.com/HunterX-7/angeles-mountains",
     },
     {
       name: "New Awesome Bookstore",
