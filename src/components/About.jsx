@@ -28,7 +28,7 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText} text-[#07BEB8] tracking-wider`}>Summary</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='text-white mt-4 text-[18px] max-w-3xl leading-[30px]'>
-      Skilled Full Stack Web Developer with a Mechanical Engineering background. Expertise in JavaScript, React, and Node.js. Adaptable and eager to learn new languages and frameworks. Strong remote collaboration, problem-solving, and communication skills. Passionate about innovative web development and delivering exceptional results. Ready to contribute to your team&apos;s success!
+      Skilled Full Stack Web Developer with a Mechanical Engineering background. Expertise in JavaScript, TypeScript, and Python. Adaptable and eager to learn new languages and frameworks with a keen interest in data analysis. I excel in utilizing tools such as Power BI, Tableau, SQL, and Excel to transform complex data sets into meaningful insights. Excited about innovative web development and delivering exceptional results. Ready to contribute to your team&apos;s success!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (
