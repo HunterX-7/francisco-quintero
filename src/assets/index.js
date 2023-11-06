@@ -9,18 +9,18 @@ import close from "./close.svg";
 import down from "./down-arrow.svg";
 import linkedin from "./linkedin.png";
 
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import bootstrap from "./tech/bootstrap-colored.png";
 import postgresql from "./tech/postgresql-colored.png";
 import ruby from "./tech/ruby-colored.png";
-import wordpress from "./tech/WordPress.com_.png";
+import azure from "./tech/azure.png";
+import excel from "./tech/excel.com.png";
+import next from "./tech/next.com.png";
+import powerbi from "./tech/powerbi.png";
+import python from "./tech/python.com.png";
+import tableau from "./tech/tableau.com.png";
 
 import sitel from "./company/sitel.png"
 import argos from "./company/argos.png";
@@ -47,18 +47,18 @@ export {
   linkedin,
   menu,
   close,
-  css,
-  git,
-  html,
   javascript,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  bootstrap,
   postgresql,
+  azure,
+  excel,
+  next,
+  powerbi,
+  python,
+  tableau,
   ruby,
-  wordpress,
   sitel,
   argos,
   copanac,
