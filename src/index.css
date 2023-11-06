@@ -21,6 +21,7 @@
 .true-bg {
   background-color: #050816;
   background-image: url(./assets/Stars.png);
+  background-position: left 1px center;
 }
 
 .hash-span {

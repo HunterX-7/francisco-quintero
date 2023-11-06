@@ -7,20 +7,20 @@ import {
     frontend,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
+    ruby,
     tailwind,
-    git,
+    python,
+    azure,
+    excel,
+    next,
+    powerbi,
+    tableau,
     sitel,
     argos,
     copanac,
     dev,
-    bootstrap,
-    ruby,
     postgresql,
-    wordpress,
     fashion,
     tribalcargo,
     global,
@@ -74,20 +74,12 @@ import {
       icon: consulting,
     },
     {
-      title: "Content Creation",
+      title: "Data Analytics",
       icon: content,
     },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
     {
       name: "JavaScript",
       icon: javascript,
@@ -97,36 +89,44 @@ import {
       icon: typescript,
     },
     {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Next",
+      icon: next,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
-      name: "Git",
-      icon: git,
-    },
-    {
       name: "Ruby",
       icon: ruby,
+    },
+    {
+      name: "Power BI",
+      icon: powerbi,
+    },
+    {
+      name: "Tableau",
+      icon: tableau,
+    },
+    {
+      name: "Excel",
+      icon: excel,
     },
     {
       name: "Postgresql",
       icon: postgresql,
     },
     {
-      name: "Wordpress",
-      icon: wordpress,
+      name: "Azure",
+      icon: azure,
     },
   ];
   
