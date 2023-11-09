@@ -36,6 +36,9 @@ import budget from "./BudgetApp.png";
 import dawnbank from "./DawnBank.png";
 import mountains from "./LAMountains.png";
 import thinkart from "./ThinkArt.png";
+import covid from "./output.png";
+import vetclinic from "./schema.png";
+import hrdashboard from "./hr-dashboard.png";
 
 export {
   logo,
@@ -73,4 +76,7 @@ export {
   dawnbank,
   mountains,
   thinkart,
+  covid,
+  vetclinic,
+  hrdashboard,
 };

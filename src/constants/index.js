@@ -30,6 +30,9 @@ import {
     dawnbank,
     thinkart,
     mountains,
+    covid,
+    vetclinic,
+    hrdashboard,
   } from "../assets";
   
   export const navLinks = [
@@ -288,6 +291,68 @@ import {
       image: fashion,
       live_demo: "https://hunterx-7.github.io/Fashion-Week/",
       source_code_link: "https://github.com/HunterX-7/Fashion-Week",
+    },
+    {
+      name: "HR Data Analysis",
+      description:
+        "The HR Data Analysis project is a detailed exploration of a sample dataset from an anonymous HR company. Utilizing Power BI, the study uncovers valuable insights, metrics related to the company's recruitment process and employee performance.",
+      tags: [
+        {
+          name: "Power BI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Power Query",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Excel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hrdashboard,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/HR-Data-Analysis",
+    },
+    {
+      name: "COVID-19 Data Analysis",
+      description:
+        "The COVID-19 Data Analysis project is an in-depth exploration conducted in Python and Jupyter Notebooks. Leveraging powerful libraries such as Pandas, NumPy, Seaborn, and Matplotlib, the study aims to establish a correlation between the COVID infection rate and the World Happiness Record, a dataset endorsed by the United Nations.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Jupyter Notebooks",
+          color: "green-text-gradient",
+        },
+      ],
+      image: covid,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/COVID-19-Data-Analysis",
+    },
+    {
+      name: "Vet Clinic",
+      description:
+        "Vet Clinic is a project, that uses a relational database to create the initial data structure for a vet clinic. I create a table to store animals' information, insert some data into it, and query it.",
+      tags: [
+        {
+          name: "SQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Relational database",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: vetclinic,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/vet_clinic",
     },
     {
       name: "Cozy Homes",

@@ -92,13 +92,13 @@
     -webkit-linear-gradient(
       to top,
       #11998e,
-      #38ef7d
+      #49b800
     );
   background:
     linear-gradient(
       to top,
       #11998e,
-      #38ef7d
+      #49b800
     );
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -107,18 +107,18 @@
 }
 
 .blue-text-gradient {
-  background: #56ccf2;
+  background: #0096ff;
   background:
     -webkit-linear-gradient(
       to top,
       #2f80ed,
-      #56ccf2
+      #0096ff
     );
   background:
     linear-gradient(
       to top,
       #2f80ed,
-      #56ccf2
+      #0096ff
     );
   -webkit-background-clip: text;
   -moz-background-clip: text;
