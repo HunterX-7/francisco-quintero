@@ -33,6 +33,7 @@ import {
     covid,
     vetclinic,
     hrdashboard,
+    spacedashboard,
   } from "../assets";
   
   export const navLinks = [
@@ -293,6 +294,46 @@ import {
       source_code_link: "https://github.com/HunterX-7/Fashion-Week",
     },
     {
+      name: "Space Mission Dashboard",
+      description:
+        "The Space Mission Dashboard project provides a comprehensive analysis of all space missions conducted from 1957 to August 2022. Leveraging Power BI, this project dives into a rich dataset, encompassing crucial details such as launch location, date, and outcomes, as well as the responsible space agency.",
+      tags: [
+        {
+          name: "Power BI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Power Query",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Excel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spacedashboard,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/Space-Missions-DA",
+    },
+    {
+      name: "COVID-19 Data Analysis",
+      description:
+        "The COVID-19 Data Analysis project is an in-depth exploration conducted in Python and Jupyter Notebooks. Leveraging powerful libraries such as Pandas, NumPy, Seaborn, and Matplotlib, the study aims to establish a correlation between the COVID infection rate and the World Happiness Record, a dataset endorsed by the United Nations.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Jupyter Notebooks",
+          color: "green-text-gradient",
+        },
+      ],
+      image: covid,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/COVID-19-Data-Analysis",
+    },
+    {
       name: "HR Data Analysis",
       description:
         "The HR Data Analysis project is a detailed exploration of a sample dataset from an anonymous HR company. Utilizing Power BI, the study uncovers valuable insights, metrics related to the company's recruitment process and employee performance.",
@@ -313,24 +354,6 @@ import {
       image: hrdashboard,
       live_demo: "",
       source_code_link: "https://github.com/HunterX-7/HR-Data-Analysis",
-    },
-    {
-      name: "COVID-19 Data Analysis",
-      description:
-        "The COVID-19 Data Analysis project is an in-depth exploration conducted in Python and Jupyter Notebooks. Leveraging powerful libraries such as Pandas, NumPy, Seaborn, and Matplotlib, the study aims to establish a correlation between the COVID infection rate and the World Happiness Record, a dataset endorsed by the United Nations.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Jupyter Notebooks",
-          color: "green-text-gradient",
-        },
-      ],
-      image: covid,
-      live_demo: "",
-      source_code_link: "https://github.com/HunterX-7/COVID-19-Data-Analysis",
     },
     {
       name: "Vet Clinic",

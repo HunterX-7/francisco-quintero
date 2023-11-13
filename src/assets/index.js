@@ -39,6 +39,7 @@ import thinkart from "./ThinkArt.png";
 import covid from "./output.png";
 import vetclinic from "./schema.png";
 import hrdashboard from "./hr-dashboard.png";
+import spacedashboard from "./space-dashboard.png";
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   covid,
   vetclinic,
   hrdashboard,
+  spacedashboard,
 };
