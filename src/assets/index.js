@@ -40,6 +40,7 @@ import covid from "./output.png";
 import vetclinic from "./schema.png";
 import hrdashboard from "./hr-dashboard.png";
 import spacedashboard from "./space-dashboard.png";
+import callcenter from "./call-center-dashboard.png";
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   vetclinic,
   hrdashboard,
   spacedashboard,
+  callcenter,
 };

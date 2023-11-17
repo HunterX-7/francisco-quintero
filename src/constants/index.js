@@ -34,6 +34,7 @@ import {
     vetclinic,
     hrdashboard,
     spacedashboard,
+    callcenter,
   } from "../assets";
   
   export const navLinks = [
@@ -334,9 +335,9 @@ import {
       source_code_link: "https://github.com/HunterX-7/COVID-19-Data-Analysis",
     },
     {
-      name: "HR Data Analysis",
+      name: "Call Center Dashboard",
       description:
-        "The HR Data Analysis project is a detailed exploration of a sample dataset from an anonymous HR company. Utilizing Power BI, the study uncovers valuable insights, metrics related to the company's recruitment process and employee performance.",
+        "The Call Center Data Analysis repository offers an in-depth exploration of call center operations during the month of October 2020, focus on a United States-based office. Utilizing analytics and visualizations in Power BI, the project delves into a diverse dataset, capturing key metrics and insights crucial to understanding call center performance.",
       tags: [
         {
           name: "Power BI",
@@ -351,9 +352,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: hrdashboard,
+      image: callcenter,
       live_demo: "",
-      source_code_link: "https://github.com/HunterX-7/HR-Data-Analysis",
+      source_code_link: "https://github.com/HunterX-7/Call-Center-DA",
     },
     {
       name: "Vet Clinic",
@@ -450,6 +451,28 @@ import {
       image: mountains,
       live_demo: "https://hunterx-7.github.io/angeles-mountains/",
       source_code_link: "https://github.com/HunterX-7/angeles-mountains",
+    },
+    {
+      name: "HR Dashboard",
+      description:
+        "The HR Data Analysis project is a detailed exploration of a sample dataset from an anonymous HR company. Utilizing Power BI, the study uncovers valuable insights, metrics related to the company's recruitment process and employee performance.",
+      tags: [
+        {
+          name: "Power BI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Power Query",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Excel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hrdashboard,
+      live_demo: "",
+      source_code_link: "https://github.com/HunterX-7/HR-Data-Analysis",
     },
     {
       name: "New Awesome Bookstore",
