@@ -26,6 +26,7 @@ import sitel from "./company/sitel.png"
 import argos from "./company/argos.png";
 import copanac from "./company/copanac.png";
 import dev from "./company/dev.png";
+import mqt from "./company/MQT.png";
 
 import fashion from "./Fashion-Week.jpeg";
 import tribalcargo from "./TribalCargo.png";
@@ -68,6 +69,7 @@ export {
   argos,
   copanac,
   dev,
+  mqt,
   fashion,
   global,
   bookstore,
