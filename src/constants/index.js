@@ -16,7 +16,6 @@ import {
     next,
     powerbi,
     tableau,
-    sitel,
     argos,
     copanac,
     dev,
@@ -138,19 +137,7 @@ import {
   
   const experiences = [
     {
-      title: "Technical Support",
-      company_name: "Sitel Group",
-      icon: sitel,
-      iconBg: "#ffffff",
-      date: "Jun 2014 - Jul 2015",
-      points: [
-        "Achieved an outstanding Customer Satisfaction Score of 91%, demonstrating a track record of consistently delivering exceptional customer experiences and resolving issues to their complete satisfaction.",
-        "Maintained an impressive Average Handle Time of 10 minutes, showcasing efficient communication and effective problem-solving skills, resulting in quick and timely resolution of customer inquiries.",
-        "Successfully contributed to a remarkable Customer Retention Rate of 94%, indicating a strong ability to build and maintain positive relationships with customers, leading to increased loyalty and continued business engagement.",
-      ],
-    },
-    {
-      title: "Mechanical Engineer",
+      title: "Budget Engineer",
       company_name: "COPANAC S.A.",
       icon: copanac,
       iconBg: "#ffffff",
@@ -162,7 +149,7 @@ import {
       ],
     },
     {
-      title: "Mechanical Engineer",
+      title: "Project Engineer",
       company_name: "Cementos Argos",
       icon: argos,
       iconBg: "#ffffff",

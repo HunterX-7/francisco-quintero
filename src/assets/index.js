@@ -22,7 +22,6 @@ import powerbi from "./tech/powerbi.png";
 import python from "./tech/python.com.png";
 import tableau from "./tech/tableau.com.png";
 
-import sitel from "./company/sitel.png"
 import argos from "./company/argos.png";
 import copanac from "./company/copanac.png";
 import dev from "./company/dev.png";
@@ -65,7 +64,6 @@ export {
   python,
   tableau,
   ruby,
-  sitel,
   argos,
   copanac,
   dev,
