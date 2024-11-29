@@ -21,14 +21,11 @@ import next from "./tech/next.com.png";
 import powerbi from "./tech/powerbi.png";
 import python from "./tech/python.com.png";
 import tableau from "./tech/tableau.com.png";
-import salesforce from "./tech/salesforce-logo.png";
 
 import argos from "./company/argos.png";
 import copanac from "./company/copanac.png";
 import dev from "./company/dev.png";
 import mqt from "./company/MQT.png";
-import adr from "./company/adr.png";
-import align from "./company/align.png";
 
 import fashion from "./Fashion-Week.jpeg";
 import tribalcargo from "./TribalCargo.png";
@@ -44,8 +41,6 @@ import vetclinic from "./schema.png";
 import hrdashboard from "./hr-dashboard.png";
 import spacedashboard from "./space-dashboard.png";
 import callcenter from "./call-center-dashboard.png";
-import align1 from "./a-lign1.png";
-import fspanama from "./fspanama.png";
 
 export {
   logo,
@@ -88,9 +83,4 @@ export {
   hrdashboard,
   spacedashboard,
   callcenter,
-  align,
-  adr,
-  align1,
-  fspanama,
-  salesforce,
 };
