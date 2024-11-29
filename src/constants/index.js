@@ -12,7 +12,7 @@ import {
     tailwind,
     python,
     azure,
-    salesforce,
+    excel,
     next,
     powerbi,
     tableau,
@@ -23,10 +23,8 @@ import {
     postgresql,
     fashion,
     tribalcargo,
-    adr,
-    align,
-    align1,
-    fspanama,
+    global,
+    bookstore,
     cozy,
     budget,
     dawnbank,
@@ -77,7 +75,7 @@ import {
       icon: backend,
     },
     {
-      title: "Low-Code Development",
+      title: "Technical Consulting",
       icon: consulting,
     },
     {
@@ -124,8 +122,8 @@ import {
       icon: tableau,
     },
     {
-      name: "Salesforce",
-      icon: salesforce,
+      name: "Excel",
+      icon: excel,
     },
     {
       name: "Postgresql",
@@ -167,7 +165,7 @@ import {
       company_name: "Distribuidora Comercial MQT",
       icon: mqt,
       iconBg: "#ffffff",
-      date: "Jun 2020 - Jul 2022",
+      date: "Jun 2020 - Present",
       points: [
         "Conducted thorough data analysis, generating detailed reports and insights that informed strategic decision-making, leading to a 17% improvement in resource allocation and financial planning accuracy.",
         "Streamlined administrative processes, reducing operational costs by 13% by implementing efficient workflows and automation tools.",
@@ -183,7 +181,7 @@ import {
       company_name: "Self Employed",
       icon: dev,
       iconBg: "#ffffff",
-      date: "Aug 2021 - Dec 2023",
+      date: "Aug 2021 - Present",
       points: [
         "Completed 20+ full-stack development projects, utilizing a diverse tech stack including JavaScript, React, Redux, Tailwind, Bootstrap, Ruby on Rails, and MongoDB, to create dynamic, custom, and user-friendly websites.",
         "Optimized frontend performance, resulting in a 12% reduction in page loading times and enhanced user engagement.",
@@ -194,36 +192,6 @@ import {
         "Leveraged SEO techniques and tools, resulting in a 70% increase in organic website traffic and improved search engine rankings.",
         "Ensured robust code quality with 80% unit test coverage, reducing the occurrence of critical bugs in production.",
         "Developed robust backend solutions using Ruby on Rails and Express, enabling seamless data management, authentication, and API integrations, contributing to the development of highly functional and efficient web applications.",
-      ],
-    },
-    {
-      title: "WordPress Developer",
-      company_name: "A-LIGN",
-      icon: align,
-      iconBg: "#ffffff",
-      date: "Jan 2024 - Jun 2024",
-      points: [
-        "Modified and customized WordPress themes to meet specific design requirements and branding guidelines.",
-        "Ensured websites were fully responsive, functioning seamlessly across various devices and screen sizes.",
-        "Identified and fixed issues or bugs within the WordPress site, including troubleshooting code conflicts and plugin malfunctions.",
-        "Enhancing website speed and performance by optimizing images, implementing caching, and minimizing code.",
-        "Implementing best practices for SEO, including meta tags, keyword integration, and ensuring clean, semantic code.",
-      ],
-    },
-    {
-      title: "Software Engineer",
-      company_name: "ADR Technologies",
-      icon: adr,
-      iconBg: "#ffffff",
-      date: "Jul 2024 - Present",
-      points: [
-        "Designing, building, and deploying custom applications using the Mendix low-code platform to address specific business needs.",
-        "Creating and optimizing complex microflows within Mendix to handle business logic, data processing, and system integrations.",
-        "Designing and implementing data models within Mendix, including defining entities, attributes, and relationships to ensure efficient data management.",
-        "Setting up and maintaining user accounts, profiles, and permissions to ensure secure and efficient access to Salesforce features.",
-        "Automating workflows, creating and customizing Salesforce objects, fields, and page layouts to fit business requirements.",
-        "Collaborated closely with clients to understand and implement new features, ensuring alignment with their business goals.",
-        "Worked alongside UX designers to transform client needs and ideas into functional, user-friendly interfaces.",
       ],
     },
   ];
@@ -239,17 +207,17 @@ import {
     },
     {
       testimonial:
-        "Francisco Quintero consistently demonstrated his ability to write clean, efficient code, and he was always willing to go above and beyond to ensure the success of our project. His attention to detail and strong problem-solving skills were invaluable to our team.",
-      name: "Pierre Barba",
-      designation: "Full-Stack Web Developer",
+        "Francisco has the technical expertise, positive attitude, and collaborative mindset that makes for an excellent developer. They are dedicated to producing quality work and always willing to go the extra mile to ensure teams success. Any team would be fortunate to have Francisco as part of their organization.",
+      name: "Rashed Arman",
+      designation: "Full Stack Developer",
       company: "",
-      image: "https://avatars.githubusercontent.com/u/99061965?v=4",
+      image: "https://avatars.githubusercontent.com/u/78993606?v=4",
     },
     {
       testimonial:
         "Francisco is a full-stack web developer with a solid grasp of both front-end and back-end development technologies. He can create, develop, and put into use web applications that satisfy the particular needs of each project, and he always makes sure that his work is of the greatest caliber.",
       name: "Juan Pablo Guerrero",
-      designation: "Software developer",
+      designation: "Full Stack Web Developer",
       company: "",
       image: "https://avatars.githubusercontent.com/u/113477568?v=4",
     },
@@ -511,29 +479,30 @@ import {
       source_code_link: "https://github.com/HunterX-7/HR-Data-Analysis",
     },
     {
-      name: "Forever Summer",
+      name: "New Awesome Bookstore",
       description:
-        "An online retail store for clothing, Forever Summer offers a seamless shopping experience where users can browse a variety of fashion items, filter products by categories, and easily add items to their cart for purchase.",
+        "New Awesome Bookstore enables users to browse a comprehensive list of books, add new titles, and remove selected books with ease, along with Bootstrap, I create an intuitive and visually appealing user interface that enhances the browsing experience.",
       tags: [
         {
-          name: "WordPress",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "woocommerce",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "RestAPI",
           color: "yellow-text-gradient",
         },
       ],
-      image: fspanama,
-      live_demo: "https://www.foreversummerpanama.com/",
+      image: bookstore,
+      live_demo: "https://hunterx-7.github.io/New-Awesome-Bookstore/",
+      source_code_link: "https://github.com/HunterX-7/New-Awesome-Bookstore",
     },
     {
       name: "Budget App",
@@ -562,29 +531,30 @@ import {
       source_code_link: "https://github.com/HunterX-7/Budget-App",
     },
     {
-      name: "A-LIGN",
+      name: "Global Metrics",
       description:
-        "I worked on improving their website's performance and functionality, specifically focusing on ensuring seamless communication of their services. I revamped their WordPress site to reflect their role in helping businesses become compliant with security certifications.",
+        "Global Metrics is a single-page application built with React. The app is designed to display basic information about different countries and allows users to filter and select a specific country to view more details.",
         tags: [
           {
-            name: "WordPress",
+            name: "React",
             color: "blue-text-gradient",
           },
           {
-            name: "HTML",
+            name: "Redux",
             color: "green-text-gradient",
           },
           {
-            name: "CSS",
+            name: "Bootstrap",
             color: "pink-text-gradient",
           },
           {
-            name: "JavaScript",
+            name: "RestAPI",
             color: "yellow-text-gradient",
           },
         ],
-      image: align1,
-      live_demo: "https://www.a-lign.com/",
+      image: global,
+      live_demo: "https://hunterx-7.github.io/Global-Metrics-Webapp/",
+      source_code_link: "https://github.com/HunterX-7/Global-Metrics-Webapp",
     },
   ];
   
