@@ -57,7 +57,7 @@ import {
   const socials = [
     {
       id: "linkedin",
-      title: "https://www.linkedin.com/in/francisco-asis-quintero-cede%C3%B1o/",
+      title: "https://www.linkedin.com/in/francisco-asis-quintero-cedeno/",
       logo: linkedin,
     },
     {
