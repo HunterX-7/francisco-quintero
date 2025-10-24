@@ -28,7 +28,7 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText} text-[#07BEB8] tracking-wider`}>Summary</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='text-white mt-4 text-[18px] max-w-3xl leading-[30px]'>
-      Skilled Software Engineer with 3+ years of experience in full-stack web development. Proficient in JavaScript, TypeScript, Python, and a wide range of modern frameworks and tools, including React, Redux, Ruby on Rails, and Node.js. Adept at leveraging data analytics tools like Power BI, Tableau, and SQL to transform complex datasets into actionable insights. Certified in Azure, Salesforce, and Tableau, with a proven track record of delivering custom applications, optimizing websites, and enhancing user experiences.
+      Skilled Software Engineer and Salesforce Consultant with 3+ years of experience in full-stack development and CRM solutions. Proficient in Salesforce configuration, Apex development, Flow automation, and integration with third-party systems. Expert at leveraging data analytics tools like Tableau, Power BI, and Einstein Analytics to transform complex datasets into actionable business insights. Certified in Salesforce and Tableau, with a proven track record of optimizing business processes, implementing scalable solutions, and driving user adoption.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (

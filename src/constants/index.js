@@ -69,19 +69,19 @@ import {
   
   const services = [
     {
-      title: "Front-End Development",
+      title: "Salesforce Platform",
       icon: frontend,
     },
     {
-      title: "Back-End Development",
+      title: "Integration & APIs",
       icon: backend,
     },
     {
-      title: "Low-Code Development",
+      title: "Digital Transformation",
       icon: consulting,
     },
     {
-      title: "Data Analytics",
+      title: "Business Intelligence",
       icon: content,
     },
   ];
@@ -211,7 +211,7 @@ import {
       ],
     },
     {
-      title: "Software Engineer",
+      title: "Salesforce Consultant",
       company_name: "ADR Technologies",
       icon: adr,
       iconBg: "#ffffff",

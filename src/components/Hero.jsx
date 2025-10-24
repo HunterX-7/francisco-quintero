@@ -9,8 +9,8 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col items-center justify-center'>
           <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className='text-[#07BEB8]'>Francisco</span></h1>
-          <p className={`${styles.heroSubText} text-center w-[75%]`}>A passionate Software Engineer with expertise in full stack development and a keen interest in data analytics, dedicated to building innovative, user-friendly solutions. 
-            <span className="hidden lg:block">Let&apos;s collaborate and turn ideas into reality!</span>
+          <p className={`${styles.heroSubText} text-center w-[75%]`}>A passionate Salesforce Consultant with expertise in cloud architecture and a keen interest in data analytics, dedicated to building scalable enterprise solutions. 
+            <span className="hidden lg:block">Let&apos;s work together and bring your ideas to life!</span>
           </p>
         </div>
       </div>
